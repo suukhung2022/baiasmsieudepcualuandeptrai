@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: 	#ffffff;
+}   
+
+/* Header blog title*/
+
+
+.header h1 {
+    font-size: 50px;
+}
+
+.menu> ul> li{
+    display: inline-block;
+    position: relative;
+}
+
+.menu> ul> li> a{
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+}
+
+
+
+.menu> ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+
+.menu> ul> li> a:hover{ 
+    color: yellow;
+}
+
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+}
+
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+}
+
+.menu>ul>li:hover>ul{
+    display: block;
+}
+ 
+.menu ul ul a:hover{
+    background-color: orangered;
+    color: white;
+}
+
+   
+.column{
+    width: 25%;
+    display: inline-block;
+    margin: 0 auto;
+    float: left;
+    text-align: center;
+}
+
+.san-pham{
+    border-radius: 0;
+    box-shadow: 1px 5px rgb(123, 117, 117);
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    float: left;
+    border-style: double;
+    border: #000000 solid 1px;
+}
+
+.san-pham:hover{
+    margin-top: 5px;
+    box-shadow: 1px rgb(67, 191, 71);
+}
+
+.san-pham .ten{
+    font-size: larger;
+    font-variant: small-caps;
+    color: blue;
+}
+
+.san-pham img{
+    max-width: 95%;
+}
+
+.gia{
+    color: red;
+    font-weight: lighter;
+    font-size: larger;
+}
+
+.column::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.tieudetc{
+    color: rgb(249, 72, 1);
+    text-align: center;
+}
+
+.thanhso {
+    display: block;
+    color: #e86363;
+    padding: 14px 16px;
+    text-decoration: none; 
+    text-align: center;
+}
+
+.so{
+    border-radius: 2px;
+    padding: 5px;
+    margin: 2px;
+    background-color: rgb(255, 255, 255);
+    width: 35px;
+    float: center;
+    border: 1px solid rgb(141, 137, 137);
+    text-decoration: none;
+    color: black;
+}
+
+.so:hover{
+    background-color: orange;
+}
+.ten:hover{
+    color: rgb(233, 211, 15);
+}
+
+.images:hover{
+    transition: 0.4s;
+    background-color: rgb(212, 158, 76);
+}
+
+
+
+
+
+.dongcuoi{ 
+background-color: orange;
+border-style: double;
+border-radius: 20px;
+color:black ;
+    background-color: rgb(216, 170, 83);
+    width: 100%;
+    float: left;
+    border-style: double;
+
+}
+
+.fLeft{
+    float: left;
+    width: 60%;
+    text-align: center;
+}
+
+.fRight{
+    float:right;
+    width: 40%;    
+}
+
+.mua{
+    border-radius: 2px;
+    padding: 15px;
+    margin: 5px;
+    width: 35px;
+    float: center;
+    border: 1px solid rgb(141, 137, 137);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: orange;
+    font-size: 25px;
+}
+
